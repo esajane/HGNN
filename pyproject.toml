@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "packagehgnn"
+version = "1.0"
+description = "HGNN"
+authors = ["Janessa Pandiyan"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+torch-geometric = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
